@@ -1,0 +1,531 @@
+body{
+    background: rgba(86,255,0,0.15);
+
+}
+a:hover{
+    text-decoration: none;
+}
+
+/*************************导航部分Start****************************/
+
+.nav-bg button:hover{
+    background: #88CC41!important;
+}
+.msj-nav{
+    border-bottom: none;
+    background:#E5FFD9;
+}
+.msj-nav img{
+    width: 90px;
+    height: 25px;
+}
+.msj-nav li:hover{
+    border-top: 2px solid #32CD32;
+}
+.msj-nav li.active a{
+    background-color: #E5FFD9!important;
+    color:#32CD32 !important; ;
+}
+.msj-nav li.active a:hover{
+    color: limegreen!important;;
+}
+.msj-nav li a.nav-lia{
+    color: #88CC41;
+    font-size: 17px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 15px;
+}
+.msj-nav li a.nav-lia:hover{
+    color: limegreen;
+}
+.msj-nav li a span.nav-li{
+    font-size: 13px;
+}
+
+/*************************导航部分End****************************/
+
+/*************************轮播Start****************************/
+#myCarousel p{
+    visibility: hidden;
+    background: rgba(21,4,10,0.2);
+}
+#myCarousel{
+    margin: 50px 0 0 0;
+}
+/**************************轮播End*****************************/
+
+/**************************内容(1)Start*****************************/
+.content1{
+    margin-top: 10px;
+    border-bottom: 3px solid #4ED132;
+}
+.content1 .content1-div{
+    margin-right: 20px;
+    border: 1px solid rgba(86,255,0,0.5);
+    box-shadow: 5px 5px 5px rgba(15,15,15,0.6);
+    height: 430px;
+    margin-bottom: 30px;
+}
+.content1 .content1-div:hover{
+    box-shadow: 5px 5px 5px #32CD32
+}
+.tab-h2{
+    text-align: center;
+    color:#88CC41 ;
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+
+.content1 .content1-list{
+    border: none !important;
+    padding: 0;
+}
+.content1 .content1-list ul{
+    background: rgba(86,255,0,0.35);
+    margin: 0;
+}
+.content1 .content1-ul li a{
+    color:#999999;
+    margin: 0;
+}
+.content1 .content1-firsta{
+    font-size: 17px;
+    color: #666666 !important;
+}
+.content1 .col-md-6{
+    padding:0;
+}
+.content1 .col-lg-5{
+    padding-top:10px;
+}
+
+.content1 .content1-bigpic{
+    height:260px ;
+}
+.content1 .col-lg-7{
+    padding-top:10px;
+}
+.content1  .content1-1{
+    border-bottom: 1px dashed #88CC41;
+    margin-bottom: 4px;
+    padding: 2px 0 0 0;
+}
+.content1 .media-img{
+    width: 54px;
+    height: 40px;
+}
+.content1 .content1-1 .media-body-con{
+    padding: 0;
+}
+.content1 .content1-1 .content1-1-right{
+    padding: 0;
+}
+.content1 .content1-1 .content1-1-right a{
+    margin: 0;
+}
+.content1 h6{
+    margin: 3px 0;
+    color:#88CC41;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.content1 h6:hover{
+    color:limegreen;
+}
+.content1 .text-muted{
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.content1 .content1-uldown{
+    background: rgba(86,255,0,0.25);
+    color: white;
+    height: 35px;
+    margin: 0;
+}
+.content1 .content1-uldown .uldown-first{
+    background: rgba(0,255,96,0.8);
+    color: white;
+}
+.content1 .content1-uldown li a{
+    color: #999999;
+}
+.content1 .content1-dowm{
+    padding: 0;
+}
+.content1 .content1-1 .media-left span{
+    color: #32CD32;
+}
+.content1 .media-body-con p.con-media-p{
+    margin-top: 3px;
+    margin-bottom: 6px;
+}
+.content1 .media-body-con p.con-media-p:hover{
+    color: #32CD32!important;
+}
+.content1 .content1-6{
+    padding: 10px;
+}
+.content1 .con-end{
+    background: url("../images/content-end.png");
+}
+/***************************内容(1)End******************************/
+
+/***************************内容(2)Start****************************/
+.content2{
+    color: #999999;
+    font-size: 12px;
+}
+.content2 a{
+    color: #666666!important;
+}
+.content2 .padding-no{
+    padding: 4px;
+}
+.content2 .content2-h5{
+    color: #94C945;
+    font-size: 14px;
+    font-weight: 900;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.content2 .content2-h5 a{
+    color: #94C945!important;
+}
+.content2 .content2-h5 a:hover{
+    color: limegreen!important;
+}
+.content2 .content2-ul{
+    margin: 0;
+    padding: 10px;
+    background: #B3FF8D;
+}
+.content2 .content2-ul li a{
+    color: #9999A1!important;
+}
+.content2 .fenye{
+    float: right;
+}
+.content2 .fenye li a:hover{
+    background: limegreen!important;
+    color: white!important;
+}
+.content2 .right-row h4{
+    color: #666666;
+}
+.content2 .right-row .right-row-a{
+    height: 40px;
+    line-height: 40px;
+    padding-right: 5px;
+    padding-left: 35px;
+}
+.content2 .right-row .right-row-a a{
+    color: #999999!important;
+}
+.content2 .right-img{
+    width: 53px;
+    height: 53px;
+}
+.content2 .con2-right-h5{
+    padding-left: 0;
+}
+.content2 .con2-right-h5 a{
+    color: #666666!important;
+}
+.content2 .con2-right-h5 a:hover{
+    color: #8a6d3b!important;
+}
+.content2 .con2-right-row{
+    margin: 0;
+    padding:10px 0;
+    border-bottom: 1px dashed #94C945;
+}
+.content2 .con2-right-img{
+    margin:0;
+    padding: 0
+}
+.content2 .con2-right-text{
+    padding: 0;
+    height: 52px
+}
+.content2 .con2-right-text h6{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.content2 .right-zhixun{
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dashed #94C945;
+    padding: 0;
+}
+.content2 .right-zhixun div{
+    height: 33px;
+}
+.content2 .right-zhixun p{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.content2 .right-zhixun p a:hover{
+    color:#8a6d3b!important ;
+}
+/***************************内容(2)End******************************/
+
+/***************************集市img Start*****************************/
+.jishi-img{
+    margin: 50px 0 0 0;
+}
+/***************************集市img End*******************************/
+
+/***************************集市内容(3) Start**************************/
+.con4-body{
+    background: #FFFFFF;
+}
+.row1{
+    width: 85%;
+    margin: 0 auto;
+}
+.content4 .con-row{
+    border-bottom: 1px dashed #94C945;
+    padding-bottom: 15px;
+}
+.content4 .blank-col3{
+    padding-right: 10px;
+}
+.content4 .blank-col3 P{
+    float: right;
+}
+.content4 .blank{
+    color: white;
+    background: #94C945;
+}
+.content4 .blank p{
+    margin: 10px 0 0 0;
+}
+.content4 .img-col3{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.content4 .img-col4{
+     margin: 0;
+     padding: 0;
+ }
+.content4 .img-col4 .div1{
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.content4 .div2{
+    width: 220px;
+    height: 0;
+    transition: height 0.5s ease;
+    background: rgba(242,232,236,0.4);
+}
+.content4 .div2 .p1{
+    padding-top: 120px;
+    color:rgba(148,201,69,0);
+    transition: color 0.5s ease;
+    padding-left: 10px;
+}
+.content4 .div2 .p2{
+    color: rgba(21,18,19,0);
+    transition: color 0.5s ease;
+    padding:0 10px;
+    font-size: 12px;
+}
+.content4 .div1:hover .div2{
+    height: 200px;
+}
+.content4 .div1:hover .p1{
+    color:rgba(148,201,69,1);
+}
+.content4 .div1:hover .p2{
+    color: rgba(21,18,19,0.9);
+}
+.content4 .row-last div img{
+    margin-top:15px;
+    cursor: pointer;
+}
+.content4{
+    border-bottom: 3px solid #4ED132;
+    padding-bottom: 20px;
+}
+
+/***************************集市内容(3) End****************************/
+
+
+/***************************内容(5) Start****************************/
+.con5-img{
+    margin: 50px 0 0 0;
+}
+.con5-h3{
+    color: #666666;
+}
+.con5-row h4{
+    font-size: 16px;
+    font-weight: 600;
+}
+.con5-textarea{
+    height: 100px!important;
+}
+.content5 .btn1{
+    background: #6DB227;
+    width: 85px;
+    color: white;
+}
+.con5-left{
+    border: 1px solid #D3D3D3;
+    color: #666666;
+    background: white;
+    padding-bottom: 15px;
+}
+.con5-left h4{
+    border-bottom: 1px solid #D3D3D3;
+    padding-bottom: 10px;
+}
+.con5-right{
+    padding-right: 0;
+}
+.con5-right div{
+    color: #666666;
+    padding:0 10px  200px 10px;
+    border: 1px solid #D3D3D3;
+    background: white;
+}
+form input,select,form textarea{
+    background: #CCE8CF!important;
+}
+.content5{
+    border-bottom: 3px solid #4ED132;
+    padding-bottom: 20px;
+}
+/***************************内容(5) End****************************/
+
+/***************************底部Start******************************/
+#footer{
+    margin-top: 30px;
+    text-align: center;
+    color: #999999;
+}
+/***************************底部End******************************/
+
+/*****************************return***************************/
+#return{
+    width: 48px;
+    height: 94px;
+    position: fixed;
+    left: 1250px;
+    top: 500px;
+    text-align: center;
+    background: whitesmoke;
+    box-shadow: 0 0 3px rgba(15,15,15,0.6);
+}
+#return #re-top{
+    font-size: 35px;
+    color: #88CC41;
+    cursor:pointer;
+}
+#return #re-top:hover{
+    color: #4ED132;
+}
+#return #re-down{
+    font-size: 35px;
+    color: #88CC41;
+    cursor:pointer;
+}
+#return #re-down:hover{
+    color: #4ED132;
+}
+/*****************************return***************************/
+
+@media (max-width: 400px){
+    .content1 .content1-div{
+        height: 415px;
+    }
+    .content1 .content1-manzt{
+        height: 370px;
+    }
+    .content2 .left-img{
+        margin-top:5px
+    }
+    .content4 .blank h4{
+        font-size: 14px;
+    }
+    .content4 .blank p{
+        font-size: 12px;
+    }
+}
+@media (max-width: 767px){
+    .msj-nav li.active a,.msj-nav li a.nav-lia{
+        transition: padding-left 0.4s ease;
+        font-size: 13px;
+    }
+    .msj-nav li.active a:hover,.msj-nav li a.nav-lia:hover{
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+    .msj-nav li a span.nav-li{
+        font-size: 12px;
+    }
+    .msj-nav li:hover{
+        border-top: none;
+    }
+}
+@media (min-width: 768px) {
+    .msj-nav li.active a,.msj-nav li a.nav-lia{
+        transition: margin-top 0.3s ease;
+        font-size: 14px;
+    }
+    .msj-nav li.active a:hover,.msj-nav li a.nav-lia:hover{
+        margin-top: 19px!important;
+    }
+    #myCarousel p{
+        visibility: visible;
+        font-size: 15px;
+    }
+    .tab-h2{
+        font-size: 21px;
+    }
+    .con5-textarea{
+        height: 150px!important;
+    }
+}
+@media (min-width: 992px){
+    .msj-nav li a.nav-lia{
+        font-size: 16px;
+    }
+    .msj-nav li a span.nav-li{
+        font-size: 13px;
+    }
+    #myCarousel p{
+        visibility: visible;
+        font-size: 16px;
+    }
+    .tab-h2{
+        font-size: 25px;
+    }
+    .con5-textarea{
+        height: 180px!important;
+    }
+}
+@media (min-width: 1200px){
+    #myCarousel p{
+        visibility: visible;
+        font-size: 18px;
+    }
+    .tab-h2{
+        font-size: 29px;
+    }
+    .content2 .left-img{
+        margin: 0 15px;
+    }
+    .con5-textarea{
+        height: 200px!important;
+    }
+}
